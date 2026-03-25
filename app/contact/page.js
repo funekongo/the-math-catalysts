@@ -9,18 +9,27 @@ export default function ContactPage() {
     grade: '',
     message: '',
   });
+  const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic (e.g., send to an API endpoint)
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will get back to you shortly.');
-    setFormData({ name: '', email: '', grade: '', message: '' });
+    setStatus('loading');
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+    if (res.ok) {
+      setStatus('success');
+      setFormData({ name: '', email: '', grade: '', message: '' });
+    } else {
+      setStatus('error');
+    }
   };
 
   return (
@@ -92,11 +101,18 @@ export default function ContactPage() {
               <div>
                 <button
                   type="submit"
-                  className="w-full bg-tmc-primary text-white font-heading font-bold py-3 px-6 rounded-md hover:bg-tmc-primary/90 transition-colors duration-200"
+                  disabled={status === 'loading'}
+                  className="w-full bg-tmc-primary text-white font-heading font-bold py-3 px-6 rounded-md hover:bg-tmc-primary/90 transition-colors duration-200 disabled:opacity-60"
                 >
-                  Send Message
+                  {status === 'loading' ? 'Sending...' : 'Send Message'}
                 </button>
               </div>
+              {status === 'success' && (
+                <p className="text-green-600 font-semibold text-center">Message sent! We'll get back to you shortly.</p>
+              )}
+              {status === 'error' && (
+                <p className="text-red-500 font-semibold text-center">Something went wrong. Please try WhatsApp instead.</p>
+              )}
             </form>
           </div>
 
