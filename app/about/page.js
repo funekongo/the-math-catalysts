@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About Us | The Math Catalyst',
+  title: 'About Us | The Math Catalysts',
   description: 'Learn about our passion for teaching, our interactive approach, and why weekend tutoring works for Grade 10-12 students.',
 };
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-tmc-text/90">
               <p>
-                The Math Catalyst was founded on a simple belief: any student can excel at math with the right guidance and a supportive environment. Our founder, a passionate and experienced math educator, grew tired of seeing students feel anxious or left behind in crowded classrooms. The goal was to create a space where asking questions is encouraged, mistakes are learning opportunities, and concepts are explored until they truly 'click'.
+                The Math Catalysts was founded on a simple belief: any student can excel at math with the right guidance and a supportive environment. Our founder, a passionate and experienced math educator, grew tired of seeing students feel anxious or left behind in crowded classrooms. The goal was to create a space where asking questions is encouraged, mistakes are learning opportunities, and concepts are explored until they truly 'click'.
               </p>
               
               <h3 className="font-heading text-xl font-bold text-tmc-primary mt-8 mb-2">

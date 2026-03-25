@@ -40,18 +40,18 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group" aria-label="The Math Catalyst Home">
+          <Link href="/" className="flex items-center gap-2 group" aria-label="The Math Catalysts Home">
             <div className="w-9 h-9 relative flex-shrink-0">
               <Image
                 src="/logo.png"
-                alt="The Math Catalyst Logo"
+                alt="The Math Catalysts Logo"
                 fill
                 className="object-contain"
                 priority
               />
             </div>
             <span className="font-heading font-bold text-tmc-accent text-lg md:text-xl leading-tight">
-              The Math Catalyst
+              The Math Catalysts
             </span>
           </Link>
 

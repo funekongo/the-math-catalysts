@@ -20,13 +20,13 @@ export default function Footer() {
               <div className="w-8 h-8 relative flex-shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="The Math Catalyst"
+                  alt="The Math Catalysts"
                   fill
                   className="object-contain"
                 />
               </div>
               <span className="font-heading font-bold text-tmc-accent text-lg">
-                The Math Catalyst
+                The Math Catalysts
               </span>
             </Link>
             <p className="text-white/60 text-sm font-body leading-relaxed max-w-xs">
@@ -150,7 +150,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm font-body text-center sm:text-left">
-            &copy; 2026 The Math Catalyst. All rights reserved.
+            &copy; 2026 The Math Catalysts. All rights reserved.
           </p>
           <p className="text-white/40 text-xs font-body">
             South Africa &bull; Online Math Tutoring &bull; Grade 10–12
