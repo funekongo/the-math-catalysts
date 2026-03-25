@@ -21,7 +21,7 @@ export default function WhatsAppButton() {
 
       {/* Button */}
       <a
-        href="https://chat.whatsapp.com/K2yQrqUgro20wgi84XTnQt"
+        href="https://chat.whatsapp.com/Eub3KClmV7kJfeoklg1oZf"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with us on WhatsApp"

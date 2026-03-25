@@ -124,7 +124,7 @@ export default function ContactPage() {
                     For a faster response, tap the button below to chat with us directly on WhatsApp.
                 </p>
                 <a
-                    href="https://chat.whatsapp.com/K2yQrqUgro20wgi84XTnQt"
+                    href="https://chat.whatsapp.com/Eub3KClmV7kJfeoklg1oZf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-3 bg-[#25D366] text-white font-heading font-bold py-3 px-8 rounded-full hover:bg-[#20ba57] transition-colors duration-200"

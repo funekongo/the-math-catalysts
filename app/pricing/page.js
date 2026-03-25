@@ -66,7 +66,7 @@ export default function PricingPage() {
 
         <div className="text-center mt-12">
             <p className="text-sm text-tmc-text/60">
-                Message us on WhatsApp to get started. We'll arrange everything from there.
+                To sign up, join our community and send a message in the <strong>general</strong> group. We'll arrange everything from there.
             </p>
         </div>
 
