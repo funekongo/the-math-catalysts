@@ -40,7 +40,7 @@ export default function PricingPage() {
             </p>
 
             <a
-              href="https://chat.whatsapp.com/Eub3KClmV7kJfeoklg1oZf"
+              href="https://chat.whatsapp.com/K2yQrqUgro20wgi84XTnQt"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full bg-[#25D366] text-white font-heading font-bold text-lg text-center px-8 py-4 rounded-full hover:bg-[#20ba57] hover:scale-105 transition-all duration-200 shadow-lg"
