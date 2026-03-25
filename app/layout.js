@@ -4,7 +4,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import './globals.css';
 
 export const metadata = {
-  title: 'The Math Catalyst | Weekend Math Tutoring',
+  title: 'The Math Catalysts | Weekend Math Tutoring',
   description: 'Live, interactive weekend math tutoring for Grade 10-12 students. Better marks for just R150/month.',
 };
 

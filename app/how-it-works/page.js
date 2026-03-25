@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'How It Works | The Math Catalyst',
+  title: 'How It Works | The Math Catalysts',
   description: 'A simple, step-by-step guide to joining our weekend math tutoring sessions.',
 };
 

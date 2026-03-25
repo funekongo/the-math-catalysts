@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Pricing | The Math Catalyst',
+  title: 'Pricing | The Math Catalysts',
   description: 'Simple, affordable pricing. Get full access to our weekend math tutoring for just R150/month.',
 };
 
