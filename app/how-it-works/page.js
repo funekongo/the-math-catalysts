@@ -34,13 +34,13 @@ export default function HowItWorksPage() {
         <div className="space-y-10 md:space-y-12">
           <Step
             number="1"
-            title="Sign Up & Pay"
-            description="Choose our single, all-inclusive plan for R150/month. The sign-up process is quick, and our secure payment gateway makes it easy to subscribe."
+            title="Message Us on WhatsApp"
+            description="Send a message to the general channel in The Math Catalysts community group. We'll arrange everything from there."
           />
           <Step
             number="2"
             title="Receive Your Google Meet Link"
-            description="Once your payment is confirmed, you'll receive a recurring Google Meet link. This single link is your key to all sessions, every weekend."
+            description="Once we've arranged everything, you'll receive a recurring Google Meet link. This single link is your key to all sessions, every weekend."
           />
           <Step
             number="3"

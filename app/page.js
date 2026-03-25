@@ -46,8 +46,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
             <FeatureStep
               icon="1️⃣"
-              title="Sign Up & Pay"
-              description="Create your account and complete the simple, secure R150 monthly payment."
+              title="Message Us on WhatsApp"
+              description="Send a message to the general channel in The Math Catalysts community group to get started."
             />
             <FeatureStep
               icon="2️⃣"

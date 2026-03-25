@@ -73,12 +73,14 @@ export default function Navbar() {
                 </Link>
               );
             })}
-            <Link
-              href="/pricing"
+            <a
+              href="https://chat.whatsapp.com/Eub3KClmV7kJfeoklg1oZf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="ml-3 px-5 py-2 bg-tmc-accent text-tmc-primary font-heading font-bold text-sm rounded-full hover:bg-tmc-accent/90 hover:scale-105 transition-all duration-200 shadow-md"
             >
-              Sign Up
-            </Link>
+              Join Now
+            </a>
           </div>
 
           {/* Mobile hamburger */}
@@ -129,12 +131,14 @@ export default function Navbar() {
                 </Link>
               );
             })}
-            <Link
-              href="/pricing"
+            <a
+              href="https://chat.whatsapp.com/Eub3KClmV7kJfeoklg1oZf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 mx-4 px-5 py-3 bg-tmc-accent text-tmc-primary font-heading font-bold text-sm rounded-full text-center hover:bg-tmc-accent/90 transition-colors duration-200"
             >
-              Sign Up
-            </Link>
+              Join Now
+            </a>
           </div>
         </div>
       </nav>

@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export const metadata = {
   title: 'Pricing | The Math Catalysts',
   description: 'Simple, affordable pricing. Get full access to our weekend math tutoring for just R150/month.',
@@ -41,12 +39,14 @@ export default function PricingPage() {
               A flat, affordable subscription for consistent, high-quality math tutoring every weekend.
             </p>
 
-            <Link
-              href="#" // This will eventually link to the payment gateway
-              className="block w-full bg-tmc-accent text-tmc-primary font-heading font-bold text-lg text-center px-8 py-4 rounded-full hover:bg-tmc-accent/90 hover:scale-105 transition-all duration-200 shadow-lg"
+            <a
+              href="https://chat.whatsapp.com/Eub3KClmV7kJfeoklg1oZf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full bg-[#25D366] text-white font-heading font-bold text-lg text-center px-8 py-4 rounded-full hover:bg-[#20ba57] hover:scale-105 transition-all duration-200 shadow-lg"
             >
-              Sign Up & Pay
-            </Link>
+              Chat on WhatsApp to Join
+            </a>
           </div>
 
           <div className="bg-gray-50 p-8 md:p-10 border-t border-gray-200">
@@ -63,10 +63,10 @@ export default function PricingPage() {
             </ul>
           </div>
         </div>
-        
+
         <div className="text-center mt-12">
             <p className="text-sm text-tmc-text/60">
-                Payments are processed securely. You can manage or cancel your subscription at any time.
+                Message us on WhatsApp to get started. We'll arrange everything from there.
             </p>
         </div>
 
